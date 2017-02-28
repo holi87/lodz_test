@@ -17,6 +17,5 @@ def dzielenie(dzielna, dzielnik):
         dzielnik = zrob_parzysta(dzielnik)
     if dzielnik == 0:
         return dzielna
-    else:
-        return dzielna / dzielnik
+    return dzielna / dzielnik
 
