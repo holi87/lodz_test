@@ -22,6 +22,11 @@ class TestPrzyklad(unittest.TestCase):
         wynik = przyklad.zrob_parzysta(3) % 2 == 0
         self.assertTrue(wynik)
 
+    def test_czy_parzysta_z_3_to_4(self):
+        self.assertEqual(4, przyklad.zrob_parzysta(3))
+
+    def test_czy_parzysta_z_5_to_6(self):
+        self.assertEqual(6, przyklad.zrob_parzysta(5))
 
 if __name__ == "__main__":
     unittest.main()

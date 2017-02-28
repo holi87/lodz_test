@@ -9,7 +9,7 @@ def czy_parzysta(liczba):
 
 
 def zrob_parzysta(liczba):
-    return 0
+    return liczba + 1
 
 
 def dzielenie():
