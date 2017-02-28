@@ -32,6 +32,11 @@ class TestPrzyklad(unittest.TestCase):
     def test_czy_4_dzielone_przez_2_rowne_2(self):
         self.assertEqual(2, przyklad.dzielenie(4, 2))
 
+    def test_czy_6_dzielone_przez_2_rowne_3(self):
+        self.assertEqual(3, przyklad.dzielenie(6, 2))
+
+    def test_czy_8_dzielone_przez_3_rowne_2(self):
+        self.assertEqual(2, przyklad.dzielenie(8, 3))
 
 if __name__ == "__main__":
     unittest.main()

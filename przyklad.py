@@ -8,9 +8,9 @@ def czy_parzysta(liczba):
     return True
 
 
-def zrob_parzysta(liczba):
-    return liczba + 1
+def zrob_parzysta(nieparzysta):
+    return nieparzysta + 1
 
 
 def dzielenie(dzielna, dzielnik):
-    return 2
+    return dzielna / dzielnik
