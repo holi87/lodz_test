@@ -2,7 +2,7 @@
 __author__ = "Grzegorz Holak"
 
 
-def czy_parzysta():
+def czy_parzysta(liczba):
     pass
 
 
