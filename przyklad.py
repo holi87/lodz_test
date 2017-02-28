@@ -3,7 +3,7 @@ __author__ = "Grzegorz Holak"
 
 
 def czy_parzysta(liczba):
-    pass
+    return True
 
 
 def zrob_parzysta():
