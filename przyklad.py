@@ -13,4 +13,8 @@ def zrob_parzysta(nieparzysta):
 
 
 def dzielenie(dzielna, dzielnik):
-    return dzielna / dzielnik
+    if czy_parzysta(dzielnik):
+        return dzielna / dzielnik
+    else:
+        dzielnik = zrob_parzysta(dzielnik)
+        return dzielna / dzielnik
