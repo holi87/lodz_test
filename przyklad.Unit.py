@@ -1,6 +1,7 @@
-import unittest2 as unittest
+import unittest
 import przyklad
 __author__ = "Grzegorz Holak"
+
 
 class TestPrzyklad(unittest.TestCase):
     def test_czy_2_jest_parzyste(self):
