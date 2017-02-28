@@ -4,6 +4,7 @@ __author__ = "Grzegorz Holak"
 
 
 class TestPrzyklad(unittest.TestCase):
+    # funkcja czy_parzysta
     def test_czy_2_jest_parzyste(self):
         self.assertTrue(przyklad.czy_parzysta(2))
 
@@ -12,6 +13,10 @@ class TestPrzyklad(unittest.TestCase):
 
     def test_czy_1231_nie_jest_parzysta(self):
         self.assertFalse(przyklad.czy_parzysta(1231))
+
+    # funkcja zrob_parzysta
+
+
 
 if __name__ == "__main__":
     unittest.main()
