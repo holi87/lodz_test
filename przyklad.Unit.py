@@ -29,20 +29,20 @@ class TestPrzyklad(unittest.TestCase):
         self.assertEqual(6, przyklad.zrob_parzysta(5))
 
     # funkcja dzielenie
-    def test_czy_4_dzielone_przez_2_rowne_2(self):
-        self.assertEqual(2, przyklad.dzielenie(4, 2))
+    def test_czy_4_dzielone_przez_2_rowne_2_i_jest_float(self):
+        self.assertEqual(2.0, przyklad.dzielenie(4, 2))
 
     def test_czy_6_dzielone_przez_2_rowne_3(self):
-        self.assertEqual(3, przyklad.dzielenie(6, 2))
+        self.assertEqual(3.0, przyklad.dzielenie(6, 2))
 
     def test_czy_8_dzielone_przez_3_rowne_2(self):
-        self.assertEqual(2, przyklad.dzielenie(8, 3))
+        self.assertEqual(2.0, przyklad.dzielenie(8, 3))
 
     def test_czy_2_dzielone_przez_0_rowne_2(self):
-        self.assertEqual(2, przyklad.dzielenie(2, 0))
+        self.assertEqual(2.0, przyklad.dzielenie(2, 0))
 
     def test_czy_minus_20_dzielone_przez_9_rowne_minus_2(self):
-        self.assertEqual(-2, przyklad.dzielenie(-20, 9))
+        self.assertEqual(-2.0, przyklad.dzielenie(-20, 9))
 
 if __name__ == "__main__":
     unittest.main()

@@ -18,4 +18,3 @@ def dzielenie(dzielna, dzielnik):
     if dzielnik == 0:
         return dzielna
     return dzielna / dzielnik
-
