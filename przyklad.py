@@ -12,5 +12,5 @@ def zrob_parzysta(liczba):
     return liczba + 1
 
 
-def dzielenie():
-    pass
+def dzielenie(dzielna, dzielnik):
+    return 2

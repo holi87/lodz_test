@@ -28,5 +28,10 @@ class TestPrzyklad(unittest.TestCase):
     def test_czy_parzysta_z_5_to_6(self):
         self.assertEqual(6, przyklad.zrob_parzysta(5))
 
+    # funkcja dzielenie
+    def test_czy_4_dzielone_przez_2_rowne_2(self):
+        self.assertEqual(2, przyklad.dzielenie(4, 2))
+
+
 if __name__ == "__main__":
     unittest.main()
