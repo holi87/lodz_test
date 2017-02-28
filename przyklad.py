@@ -8,7 +8,7 @@ def czy_parzysta(liczba):
     return True
 
 
-def zrob_parzysta():
+def zrob_parzysta(liczba):
     pass
 
 
