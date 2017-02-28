@@ -15,7 +15,9 @@ class TestPrzyklad(unittest.TestCase):
         self.assertFalse(przyklad.czy_parzysta(1231))
 
     # funkcja zrob_parzysta
-
+    def test_zrob_parzysta_z_3(self):
+        wynik = przyklad.zrob_parzysta(3) % 2 == 0
+        self.assertTrue(wynik)
 
 
 if __name__ == "__main__":
