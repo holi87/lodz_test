@@ -44,5 +44,8 @@ class TestPrzyklad(unittest.TestCase):
     def test_czy_minus_20_dzielone_przez_9_rowne_minus_2(self):
         self.assertEqual(-2.0, przyklad.dzielenie(-20, 9))
 
+    def test_czy_zwraca_wartosc_float(self):
+        self.assertTrue(isinstance(przyklad.dzielenie(2,2), float))
+
 if __name__ == "__main__":
     unittest.main()
